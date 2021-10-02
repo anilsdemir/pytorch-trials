@@ -3,9 +3,6 @@ Script to be used to create local folders for running the project successfully.
 
 You need to run this script only once when you fresh clone the repo.
 If the script changes you might need to run it again to create new directories.
-
-Make sure that your OUTPUT_SOURCE is set to LOCAL, so the output directories
-can be created with correct paths.
 """
 
 import os
