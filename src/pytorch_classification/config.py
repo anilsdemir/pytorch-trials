@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-BASE_DIR = Path(__file__).parent
+BASE_DIR = Path(__file__).parent.parent.parent
 
 LOCAL_DIR = Path.joinpath(BASE_DIR, "local")
 
@@ -11,5 +11,6 @@ INPUT_DIR = Path.joinpath(LOCAL_DIR, "inputs")
 
 OUTPUT_DIR = Path.joinpath(LOCAL_DIR, "outputs")
 
-#print(BASE_DIR, "\n", LOCAL_DIR, "\n", LOGGING_DIR, "\n", INPUT_DIR, "\n",
-      #OUTPUT_DIR)
+"""print(BASE_DIR, "\n", LOCAL_DIR, "\n", LOGGING_DIR, "\n", INPUT_DIR, "\n",
+      OUTPUT_DIR)
+"""
