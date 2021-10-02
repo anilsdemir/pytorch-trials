@@ -18,3 +18,7 @@ class MissingDirectoryError(CustomException):
 
 class MissingArgumentValueError(CustomException):
     pass
+
+
+class CudaIsNotAvailable(CustomException):
+    pass
