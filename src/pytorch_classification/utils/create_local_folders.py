@@ -10,6 +10,7 @@ can be created with correct paths.
 
 import os
 import sys
+import logging
 
 from pytorch_classification.config import (
     BASE_DIR,
@@ -28,8 +29,7 @@ folders_to_be_created = [
 ]
 
 if __name__ == "__main__":
-    with open(log_folder, 'w') as fp:
-        pass
+    logger = logging.getLogger(__name__)
     for folder in folders_to_be_created:
         try:
             os.mkdir(folder)
