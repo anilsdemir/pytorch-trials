@@ -7,6 +7,10 @@ LOCAL_DIR = Path.joinpath(BASE_DIR, "local")
 
 LOGGING_DIR = Path.joinpath(LOCAL_DIR, "logs")
 
+MODELS_DIR = Path.joinpath(LOCAL_DIR, "models")
+
+DATA_DIR = Path.joinpath(LOCAL_DIR, "data")
+
 INPUT_DIR = Path.joinpath(LOCAL_DIR, "inputs")
 
 OUTPUT_DIR = Path.joinpath(LOCAL_DIR, "outputs")

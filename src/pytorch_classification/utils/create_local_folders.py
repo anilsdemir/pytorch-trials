@@ -13,6 +13,8 @@ from pytorch_classification.config import (
     BASE_DIR,
     LOCAL_DIR,
     INPUT_DIR,
+    DATA_DIR,
+    MODELS_DIR,
     LOGGING_DIR,
     OUTPUT_DIR,
 )
@@ -21,6 +23,8 @@ folders_to_be_created = [
     BASE_DIR,
     LOCAL_DIR,
     INPUT_DIR,
+    DATA_DIR,
+    MODELS_DIR,
     LOGGING_DIR,
     OUTPUT_DIR,
 ]
